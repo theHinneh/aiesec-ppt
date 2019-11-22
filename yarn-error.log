@@ -1,0 +1,79 @@
+Arguments: 
+  /Users/theHinneh/.nvm/versions/node/v12.13.0/bin/node /Users/theHinneh/.nvm/versions/node/v12.13.0/bin/yarn
+
+PATH: 
+  /Users/theHinneh/opt/anaconda3/bin:/Users/theHinneh/opt/anaconda3/condabin:/Users/theHinneh/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/theHinneh/flutter/bin:/Users/theHinneh/go/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.22.35:443 - Local (0.0.0.0:50827)
+      at internalConnect (net.js:907:16)
+      at defaultTriggerAsyncIdScope (internal/async_hooks.js:301:12)
+      at emitLookup (net.js:1050:9)
+      at /Users/theHinneh/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:107339:28
+      at /Users/theHinneh/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:107248:13
+      at RawTask.module.exports.RawTask.call (/Users/theHinneh/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:83552:19)
+      at flush (/Users/theHinneh/.nvm/versions/node/v12.13.0/lib/node_modules/yarn/lib/cli.js:83634:29)
+      at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+npm manifest: 
+  {
+    "name": "impress.js",
+    "version": "1.0.0",
+    "description": "A presentation at AIESEC hackday",
+    "main": "js/impress.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/theHinneh/aiesec-ppt.git"
+    },
+    "keywords": [
+      "presentation",
+      "slides",
+      "slideshow",
+      "css3",
+      "transitions",
+      "transforms",
+      "browser"
+    ],
+    "author": "theHinneh",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/theHinneh/aiesec-ppt.git/issues"
+    },
+    "scripts": {
+      "build": "node build.js --prod --base-href https://thehinneh.github.io/aiesec-ppt/",
+      "lint": "jshint src test/*.js && jscs src test/*.js",
+      "new-lint": "eslint src test",
+      "test": "karma start --log-level debug --single-run=true",
+      "ngh": "ngh --dir=dist/hultz-frontend"
+    },
+    "devDependencies": {
+      "eslint": "^5.15.3",
+      "jscs": "^3.0.7",
+      "jshint": "^2.10.2",
+      "karma": "^4.0.0",
+      "karma-chrome-launcher": "^2.2.0",
+      "karma-firefox-launcher": "^1.1.0",
+      "karma-qunit": "^2.1.0",
+      "ls": "^0.2.1",
+      "puppeteer": "^1.13.0",
+      "qunit": "^2.9.2",
+      "syn": "^0.13.0",
+      "terser": "^3.17.0"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
