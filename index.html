@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>
+      Web Presentation
+    </title>
+
+    <meta
+      name="description"
+      content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com."
+    />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link
+      href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+      rel="stylesheet"
+    />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+
+  <body class="impress-not-supported">
+    <!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+    <div class="fallback-message">
+      <p>
+        Your browser <b>doesn't support the features required</b> by this
+        presentation, so you are presented with a simplified version.
+      </p>
+      <p>
+        For the best experience please use the latest <b>Chrome</b>,
+        <b>Safari</b> or <b>Firefox</b> browser.
+      </p>
+    </div>
+
+    <div id="impress" data-autoplay="7">
+      <div
+        id="bored"
+        class="step slide"
+        data-x="-1000"
+        data-y="-1500"
+        data-autoplay="10000"
+      >
+        <q style="text-align: center;">A Web Development Presentation</q>
+        <p class="rango" style="text-align: center; line-height: 150px;">
+          by <b>Rango</b>
+        </p>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div class="step slide" data-x="0" data-y="-1500" data-autoplay="10000">
+        <q>
+          <b>What is web development?</b>
+          <p style="font-size: 30px; color: chocolate;">
+            The work involved in developing a website.
+          </p>
+          <hr />
+          <ul style="font-size: 25px;">
+            <li>web design</li>
+            <li>web content development</li>
+            <li>Other advanced things included ...</li>
+          </ul>
+        </q>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        class="step slide"
+        data-x="1000"
+        data-y="-1500"
+        data-autoplay="10000"
+      >
+        <q
+          >Would you like to <strong>impress your audience</strong> with
+          <strong>stunning visualization</strong> of your talk?</q
+        >
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="title"
+        class="step"
+        data-x="0"
+        data-y="0"
+        data-scale="4"
+        data-autoplay="10000"
+      >
+        <span class="try">then you can try</span>
+        <!-- <h1>impress.js<sup>*</sup></h1> -->
+        <p style="text-align: center; line-height: 200px; font-weight: 900;">
+          An Awesome<sup>*</sup> Web Design
+        </p>
+        <p class="theHinneh">❤️theHinneh!</p>
+        <!-- <span class="footnote"><sup>*</sup> no rhyme intended</span> -->
+      </div>
+
+      <div
+        id="its"
+        class="step"
+        data-x="850"
+        data-y="3000"
+        data-rotate="90"
+        data-scale="5"
+        data-autoplay="10000"
+      >
+        <p>
+          Today is a <strong>hackday</strong> <br />
+          <span style="font-size: 30px;"
+            >how can my team develope an Awesome<sup>*</sup> website</span
+          >
+          <br />
+          <span>when none of us can code?</span>
+        </p>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="big"
+        class="step"
+        data-x="3500"
+        data-y="2100"
+        data-rotate="180"
+        data-scale="6"
+        data-autoplay="10000"
+      >
+        <p>Don't be <b>💀</b> <span class="thoughts">scared</span></p>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="tiny"
+        class="step"
+        data-x="2825"
+        data-y="2325"
+        data-z="-3000"
+        data-rotate="300"
+        data-scale="1"
+        data-autoplay="10000"
+      >
+        <p>you don't always need to code 👩🏾‍💻👨🏽‍💻</p>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="ing"
+        class="step"
+        data-x="3500"
+        data-y="-850"
+        data-z="0"
+        data-rotate="270"
+        data-scale="6"
+        data-autoplay="10000"
+      >
+        <p>
+          just <b class="positioning">positioning</b>,
+          <b class="rotating">rotating</b> and
+          <b class="scaling">scaling</b> ideas on templates
+        </p>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="imagination"
+        class="step"
+        data-x="6700"
+        data-y="-300"
+        data-scale="6"
+        data-autoplay="10000"
+      >
+        <p>
+          the only <b>limit</b> is your <b class="imagination">imagination</b>
+        </p>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="source"
+        class="step"
+        data-x="6300"
+        data-y="2000"
+        data-rotate="20"
+        data-scale="4"
+        data-autoplay="10000"
+      >
+        <p>There are multiple websites for designing a website</p>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="one-more-thing"
+        class="step"
+        data-x="6000"
+        data-y="4000"
+        data-scale="2"
+        data-autoplay="10000"
+      >
+        <!-- <p>one more thing...</p> -->
+        <ul>
+          <li>wix</li>
+          <li>wordpress</li>
+          <li>squarespace</li>
+          <li>site123</li>
+          <li>etc...</li>
+        </ul>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <div
+        id="its-in-3d"
+        class="step"
+        data-x="6200"
+        data-y="4300"
+        data-z="-100"
+        data-rotate-x="-40"
+        data-rotate-y="10"
+        data-scale="2"
+        data-autoplay="10000"
+      >
+        <p>
+          <span class="have">we</span> <span class="you">will</span>
+          <span class="noticed">try</span> <span class="its">one of</span>
+          <span class="in">them</span> <br />
+          <b style="color: chocolate;">Odoo</b>
+        </p>
+        <span class="footnote">www.odoo.com</span>
+        <p class="theHinneh">❤️theHinneh!</p>
+      </div>
+
+      <!--
+        
+        So to summarize of all the possible attributes used to position presentation steps, we have:
+        
+        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+            the canvas in pixels; their default value is 0;
+        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+            are exactly the same;
+        * `data-scale` - defines the scale of step element; default value is 1
+        
+        These values are used by impress.js in CSS transformation functions, so for more information consult
+        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+        
+    -->
+      <div
+        id="overview"
+        class="step"
+        data-x="3000"
+        data-y="1500"
+        data-z="0"
+        data-scale="10"
+      ></div>
+    </div>
+
+    <!--
+    This is a UI plugin. You can read more about plugins in src/plugins/README.md.
+    For now, I'll just tell you that this adds some graphical controls to navigate the
+    presentation. In the CSS file you can style them as you want. We've put them bottom right.
+-->
+    <div id="impress-toolbar"></div>
+
+    <!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+-->
+    <div class="hint">
+      <p>
+        Use a spacebar or arrow keys to navigate. <br />
+        Press 'P' to launch speaker console.
+      </p>
+    </div>
+    <script>
+      if ('ontouchstart' in document.documentElement) {
+        document.querySelector('.hint').innerHTML =
+          '<p>Swipe left or right to navigate</p>';
+      }
+    </script>
+
+    <script src="js/impress.js"></script>
+    <script>
+      impress().init();
+    </script>
+  </body>
+</html>
+
+<!--
+    
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+    
+    Oh, you've already cloned the code from GitHub?
+    
+    You have it open in text editor?
+    
+    Stop right there!
+    
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+    
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+    
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+    
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+    
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    creating awesome and engaging presentations.
+    
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+    
+-->
+
+<!--
+    
+    Are you still reading this?
+    
+    For real?
+    
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+    
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+    
+    Cheers!
+    
+-->
