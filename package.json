@@ -1,11 +1,11 @@
 {
   "name": "impress.js",
   "version": "1.0.0",
-  "description": "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.",
+  "description": "A presentation at AIESEC hackday",
   "main": "js/impress.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/impress/impress.js.git"
+    "url": "https://github.com/theHinneh/aiesec-ppt.git"
   },
   "keywords": [
     "presentation",
@@ -16,13 +16,13 @@
     "transforms",
     "browser"
   ],
-  "author": "Bartek Szopka",
+  "author": "theHinneh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/impress/impress.js/issues"
+    "url": "https://github.com/theHinneh/aiesec-ppt.git/issues"
   },
   "scripts": {
-    "build": "node build.js --prod --base-href https://gxtlabs.github.io/aiesec/",
+    "build": "node build.js --prod --base-href https://thehinneh.github.io/aiesec-ppt/",
     "lint": "jshint src test/*.js && jscs src test/*.js",
     "new-lint": "eslint src test",
     "test": "karma start --log-level debug --single-run=true",
