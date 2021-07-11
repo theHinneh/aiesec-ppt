@@ -29,18 +29,18 @@
     "ngh": "ngh --dir=dist/hultz-frontend"
   },
   "devDependencies": {
-    "eslint": "^5.15.3",
+    "eslint": "^7.30.0",
     "jscs": "^3.0.7",
-    "jshint": "^2.10.2",
-    "karma": "^4.0.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-firefox-launcher": "^1.1.0",
-    "karma-qunit": "^2.1.0",
+    "jshint": "^2.13.0",
+    "karma": "^6.3.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^2.1.1",
+    "karma-qunit": "^4.1.2",
     "ls": "^0.2.1",
-    "puppeteer": "^1.13.0",
-    "qunit": "^2.9.2",
-    "syn": "^0.13.0",
-    "terser": "^3.17.0"
+    "puppeteer": "^10.1.0",
+    "qunit": "^2.16.0",
+    "syn": "^0.15.0",
+    "terser": "^5.7.1"
   },
   "dependencies": {}
 }
